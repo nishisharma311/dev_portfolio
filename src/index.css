@@ -1,1 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap");
+
+body {
+	background-image: linear-gradient(to right bottom, #34e89e, #0f3443);
+	background-attachment: fixed;
+}
+a {
+	text-decoration: none;
+	font-size: 1.05rem;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+.container {
+	padding-top: 50px;
+}
+.app__sidebar {
+	background-color: #fff;
+	height: 90vh;
+	border-radius: 25px;
+	padding: 20 20;
+	text-align: center;
+	box-shadow: 0 0 10px black;
+	margin-bottom: 10px;
+}
+.app__main-content {
+	background-color: #fff;
+	height: 90vh;
+	padding: 20 20;
+	border-radius: 25px;
+	box-shadow: 0 0 10px black;
+}
+.sidebar_avtar {
+	height: 80px;
+	width: 80px;
+	border-radius: 50px;
+	object-fit: contain;
+	margin: 20px 20px;
+}
+/*sidebar styling*/
+.sidebar_icons {
+	margin-bottom: 6px;
+}
+.sidebar_name {
+	font-family: Kaushan Script;
+	font-size: 25px;
+}
+.sidebar_name > span {
+	color: #34e89e;
+}
+
+.sidebar_title {
+	height: 30px;
+	background-color: #f1f1f1;
+	border-radius: 30px;
+	font-size: 1.05rem;
+	margin: 6px 35px;
+	font-family: "Times New Roman", Times, serif;
+}
+.sidebar_icons > span {
+	font-family: "Times New Roman", Times, serif;
+}
+.sidebar_item {
+	margin-top: 6px;
+}
+.contact {
+	height: 125px;
+	background-color:#dbdbdddf;
+	margin: 12px 10px;
+	border-radius: 15px;
+}
+.sidebar_email {
+	background-image: linear-gradient(to right bottom, #34e89e, #0f3443);
+	height: 30px;
+	border-radius: 30px;
+	color: white;
+	margin: 30px 35px 0px;
+	cursor: pointer;
+	transition: all 1s linear;
+	box-shadow: 0px 0px 10px gray;
+	font-size: 1.1rem;
+}
+.sidebar_email:hover {
+	transform: scale(1.1);
+}
+.sidebar_item:hover,
+.sidebar_resume:hover {
+	background-color: #f1f1f1;
+	cursor: pointer;
+	height: 28px;
+	border-radius: 30px;
+}
+/*responsive*/
+@media(max-width: 991px) {
+	.app__main-content {
+		margin: 30px 0;
+	}
+}
+
+/*navbar styling*/
+.navbar_items {
+	display: flex;
+}
+.active {
+	font-size: 1.5rem;
+	font-weight: 700;
+
+	border-bottom: 4px solid #34e89e;
+}
+.navbar_item {
+	margin-right: 20px;
+	text-decoration: none;
+	font-size: 1.1rem;
+	cursor: pointer;
+
+}
+.navbar_item:hover {
+	background: -webkit-linear-gradient( #2d815e, #0f3443);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+	font-weight: 500;
+}
+
+
