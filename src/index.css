@@ -23,7 +23,6 @@ a:hover {
 	padding: 20 20;
 	text-align: center;
 	box-shadow: 0 0 10px black;
-	margin-bottom: 10px;
 }
 .app__main-content {
 	background-color: #fff;
@@ -66,7 +65,7 @@ a:hover {
 	margin-top: 6px;
 }
 .contact {
-	height: 125px;
+	height: 130px;
 	background-color:#dbdbdddf;
 	margin: 12px 10px;
 	border-radius: 15px;
@@ -103,10 +102,9 @@ a:hover {
 .navbar_items {
 	display: flex;
 }
-.active {
+.navbar_active {
 	font-size: 1.5rem;
 	font-weight: 700;
-
 	border-bottom: 4px solid #34e89e;
 }
 .navbar_item {
@@ -121,7 +119,7 @@ a:hover {
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color:transparent;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 
