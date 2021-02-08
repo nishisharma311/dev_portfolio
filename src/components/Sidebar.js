@@ -14,7 +14,7 @@ const Sidebar = () => {
     }
     return (
         <div className="sidebar">
-             <div className="app__sidebar">
+             
             <img src={nishi} alt="hello" className="sidebar_avtar"></img>
             <div className="sidebar_name">Nishi <span>Sharma</span></div>
             <div className="sidebar_item sidebar_title">Web Developer</div>
@@ -29,14 +29,12 @@ const Sidebar = () => {
                 </div>
                 <div className="contact">
                 <div className="sidebar_item sidebar_github"><a href="https://github.com/nishisharma311"><ImGithub size="15px" color="#34e89e"/>Github</a></div>
-                <div className="">
-                    <div className="sidebar_item"><GoLocation size="15px" color="#34e89e"/>Prayagraj,India</div>
-                    <div className="sidebar_item">nishisharmaanil@gmail.com</div>
-                    <div className="sidebar_item"><FiPhoneCall size="15px" color="#34e89e"/>8077394388/6387945288</div>
-                </div>
-                <div className="sidebar_email sidebar_item" onClick={handleEmail}><span>Email Me</span></div>
-                </div>
-        </div></div>
+                <div className="sidebar_item"><GoLocation size="15px" color="#34e89e"/>Prayagraj,India</div>
+                <div className="sidebar_item">nishisharmaanil@gmail.com</div>
+                <div className="sidebar_item"><FiPhoneCall size="15px" color="#34e89e"/>8077394388/6387945288</div></div>
+                <div className="sidebar_email " onClick={handleEmail}><span>Email Me</span></div>
+                
+        </div>
     )
 }
 export default Sidebar;
